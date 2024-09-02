@@ -11,4 +11,5 @@ import com.example.bankManagementAssignment.Enitity.Branch;
 public interface BranchRepository extends JpaRepository<Branch, Long> {
 
     public List<Branch> findBranchByBankId(Long id);
+    
 }
