@@ -71,7 +71,7 @@ Get Branhces of bank
 
 ![alt text](branches.PNG)
 
-## 5. Get Services offered by of Branch
+## 5. Get Services offered by Branch
 
 Get Services offered By Branch
 
