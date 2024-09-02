@@ -1,5 +1,13 @@
 # Canara Bank API Documentation
 
+# Canara Bank API Documentation
+
+**Note:** The project is deployed on Render as a free service. It may spin down due to inactivity, causing request delays of 50 seconds or more. Please be patient if you experience delays.
+
+**Active Link for the Project:** [https://bankmanage-ui.vercel.app/](https://bankmanage-ui.vercel.app/)
+
+**Front-End Repository:** [https://github.com/rock-02/bankmanage-ui](https://github.com/rock-02/bankmanage-ui)
+
 ## 1. Create a Bank
 
 To create a new bank, use the POST method with the following request body:
