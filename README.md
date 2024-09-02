@@ -34,7 +34,7 @@ To create a new branch, use the POST method with the following request body:
 
 ![alt text](createBranch-1.PNG)
 
-## 2. Create a Barnch Service
+## 3. Create a Branch Service
 
 To Add a new Service to branch, use the POST method with the following request body:
 
@@ -52,3 +52,19 @@ To Add a new Service to branch, use the POST method with the following request b
 ```
 
 ![alt text](Addservices-1.PNG)
+
+## 4. Get Branches of Bank
+
+Get Branhces of bank
+
+**Request URL:** `http://localhost:8080/branches/{bankId}`
+
+![alt text](branches.PNG)
+
+## 5. Get Services offered by of Branch
+
+Get Services offered By Branch
+
+**Request URL:** `http://localhost:8080/services/{branchId}`
+
+![alt text](image.png)
