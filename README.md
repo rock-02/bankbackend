@@ -8,6 +8,8 @@
 
 **Front-End Repository:** [https://github.com/rock-02/bankmanage-ui](https://github.com/rock-02/bankmanage-ui)
 
+\*\* In this project PostGreSql Database is Used from render platform and Project is also deployed n render.
+
 ## 1. Create a Bank
 
 To create a new bank, use the POST method with the following request body:
