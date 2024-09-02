@@ -12,3 +12,4 @@ To create a new bank, use the POST method with the following request body:
   "address": "Banglore"
 }
 ```
+![alt text](createBank-1.PNG)
