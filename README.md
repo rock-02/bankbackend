@@ -12,4 +12,43 @@ To create a new bank, use the POST method with the following request body:
   "address": "Banglore"
 }
 ```
+
 ![alt text](createBank-1.PNG)
+
+## 2. Create a Branch
+
+To create a new branch, use the POST method with the following request body:
+
+**Request URL:** `http://localhost:8080/branch/{bankId}`
+
+```json
+{
+  "name": "Canara Bank HSR Layout Branch",
+  "address": "27th Main, HSR Layout",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "postalCode": "560102",
+  "phoneNumber": "+91-80-2572-3456"
+}
+```
+
+![alt text](createBranch-1.PNG)
+
+## 2. Create a Barnch Service
+
+To Add a new Service to branch, use the POST method with the following request body:
+
+**Request URL:** `http://localhost:8080/services/{branchId}`
+
+```json
+{
+  "name": "Canara Bank HSR Layout Branch",
+  "address": "27th Main, HSR Layout",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "postalCode": "560102",
+  "phoneNumber": "+91-80-2572-3456"
+}
+```
+
+![alt text](Addservices-1.PNG)
